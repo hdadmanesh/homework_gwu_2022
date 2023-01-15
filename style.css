@@ -16,12 +16,14 @@
 nav {
     display:flex;
     padding:2% 6%;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #544D5B;
+    height: 50px;
 }
 
 nav img {
-    width: 100px;
+    width: 250px;
 }
 
 .heroSection {
@@ -29,30 +31,33 @@ nav img {
     padding:2% 6%;
     justify-content: space-between;
     align-items: center;
+    display:inline-block;
+    position:relative;
 }
-body img {
-    width: 400px;
-}
+
 .nav-links {
     flex: 1;
-    text-align: right;
+    text-align: left;
 }
-ul li{
+
+.nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-ul li a {
-    color:beige;
+
+.nav-links ul li a {
+    color: #C5BBA4;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 200%;
 }
 
 .myName {
     color:#f2f2f2;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 300%;
+    padding: 150px;
 }
 
 .heroSection {
@@ -62,10 +67,11 @@ ul li a {
 .introText {
     color:#f2f2f2;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 50%;
 }
-ul li::after{
+ul li::after {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+}
