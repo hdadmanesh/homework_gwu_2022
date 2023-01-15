@@ -1,7 +1,10 @@
 *{
     margin:0;
     padding: 0;
+    font-family: 'Cinzel', serif;
+    font-family: 'Smooch Sans', sans-serif;    
 }
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -10,11 +13,59 @@
     background-size:cover;
     position:relative;
 }
+nav {
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
 
+nav img {
+    width: 100px;
+}
 
+.heroSection {
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+body img {
+    width: 400px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ul li a {
+    color:beige;
+    text-decoration: none;
+    font-size: 32px;
+}
 
-/* 
-_______________________ TID BITS __________________
+.myName {
+    color:#f2f2f2;
+    text-decoration: none;
+    font-size: 50px;
+}
 
-BACKROUND GRADIENT
-linear-gradient (rgba(4,9.30,0.7),rgba(4,9,30,0.7) */
+.heroSection {
+    padding-right: 30%
+}
+
+.introText {
+    color:#f2f2f2;
+    text-decoration: none;
+    font-size: 24px;
+}
+ul li::after{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
