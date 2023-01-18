@@ -87,9 +87,15 @@ p {
     font-weight: 200;
 }
 
+@media(max-width: 700px){
+    .hero-box p{
+    font-size: 20px;
+    }
+}
+
 
 .card-section{
-    display: block;
+    display: inline-block;
     width: 90%;
     max-height: 500px;
     display:flex;
