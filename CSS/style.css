@@ -4,13 +4,14 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Smooch Sans', sans-serif;
 }
-
-.header {
+body {
+    background-image: url(/images/jeremy-perkins-FsK54FVNRfM-unsplash-gradient.png);
+    background-size:cover;
+    background-position:center;
+}
+head {
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/jeremy-perkins-FsK54FVNRfM-unsplash-gradient.png);
-    background-position:center;
-    background-size:cover;
     position:relative;
 }
 nav {
@@ -93,24 +94,7 @@ p {
     }
 }
 
-
-.card-section{
-    display: inline-block;
-    width: 90%;
-    max-height: 500px;
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
-}
-
-.card {
-    cursor:pointer
-}
-
-.card {
-    background:pointer
-}
-
-.card-section img {
-    width: 500px
+.planet-cards img {
+    height: 400px;
+    width: auto;
 }
