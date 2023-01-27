@@ -1,100 +1,105 @@
-*{
+/* {
     margin:0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Smooch Sans', sans-serif;
 }
 body {
-    background-image: url(/images/jeremy-perkins-FsK54FVNRfM-unsplash-gradient.png);
+    background-image: url(../images/jeremy-perkins-FsK54FVNRfM-unsplash-gradient.png);
     background-size:cover;
     background-position:center;
-}
-head {
-    min-height: 100vh;
-    width: 100%;
-    position:relative;
-}
-nav {
-    display:flex;
-    padding:2% 6%;
-    justify-content:flex-start;
-    align-items:center;
-    background-color: #544D5B;
-    height: 50px;
-}
+} */
 
-nav img {
-    width: 250px;
-}
-
-.nav-links {
-    flex: 1;
-    text-align: left;
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 24px;
-    position: relative;
-}
-
-.nav-links ul li a {
-    color: #C5BBA4;
-    text-decoration: none;
-    font-size: 28px;
-}
-
-.myName {
-    color:#f2f2f2;
-    text-decoration: none;
+body {
     font-family: 'Smooch Sans', sans-serif;
-    font-size: 50px;
-    padding:50px;
-}
+    font-size: 28px;
 
-.nav-links ul li::after{
-    content:"";
-    width: 0%;
-    height: 1.5px;
-    background: #f2f2f2;
-    display: block;
-    margin: auto;
-    transition: .5s;
 }
-.nav-links ul li:hover::after{
-    width: 100%;
+.customNav {
+    background-color: rgb(99, 87, 99);
+    padding:10px 50px;
 }
+.customNav a {
+    color:white !important;
+}
+.customNav img {
+    height: 200px;
+    margin: 0px 15px;
+}
+.navbar-nav {
+    margin-left:auto;
 
-.hero-box{
-    display: block;
-    width: 90%;
-    max-height: 500px;
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
-    text-justify: left;
-    color:#f2f2f2;
-}
-
-.hero-box img {
-    width:600px;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    line-height: 165%;
-    font-weight: 200;
-}
-
-@media(max-width: 700px){
-    .hero-box p{
-    font-size: 20px;
     }
+    .navbar-light .navbar-toggler-icon {
+        color:f2f2f2 !important;
+        background-image: url(../images/hamburger-white.png);
+        
+    }
+    button.navbar-toggler {
+        border:none;
+    }
+
+.heroBackground {
+    background-image: url(../images/1839876-MacBook-Pro-on-table\ 1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    display:flex;
+    justify-content: center;
 }
 
-.planet-cards img {
-    height: 400px;
-    width: auto;
+.heroContent h1 {
+    color: rgb(99, 87, 99);
+    text-align:center;
+    font-size: 22;
+    }
+
+/* .heroContent img {
+    width: 100%;
+} */
+
+.dropdown-menu-text a {
+    color: rgb(99, 87, 99) !important;
+}
+
+.dropdown-menu-text {
+    margin-left: -100px;
+}
+
+.navbar-brand {
+    font-size: 36px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.row {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 50px;
+}
+
+.contentSection {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.heading {
+    color:red;
+    margin: bottom 40px;
+}
+ 
+
+/* SECTION SEPARATORS */
+
+.sectionHeading {
+    background-color: rgb(99, 87, 99);
+    text-align: center;
+    color:white;    
+    padding:25px 0px;
+    font-weight:300;
+}
+
+.timelineImage {
+    width:100%;
 }
