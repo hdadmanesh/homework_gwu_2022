@@ -1,87 +1,101 @@
-/* {
+/* body {
     margin:0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Smooch Sans', sans-serif;
-}
+} */
+
 body {
     background-image: url(../images/jeremy-perkins-FsK54FVNRfM-unsplash-gradient.png);
     background-size:cover;
     background-position:center;
-} */
+    color:aliceblue;
+}
 
 body {
     font-family: 'Smooch Sans', sans-serif;
     font-size: 28px;
-
 }
 .customNav {
     background-color: rgb(99, 87, 99);
-    padding:10px 50px;
+    padding:10px 25px;
 }
 .customNav a {
     color:white !important;
 }
 .customNav img {
-    height: 200px;
-    margin: 0px 15px;
+    height: 60px;
+    margin: 0px 10px;
 }
 .navbar-nav {
     margin-left:auto;
 
-    }
-    .navbar-light .navbar-toggler-icon {
-        color:f2f2f2 !important;
-        background-image: url(../images/hamburger-white.png);
-        
-    }
-    button.navbar-toggler {
+}
+.navbar-brand {
+    font-size: 36px;
+}
+.navbar-light .navbar-toggler-icon {
+    color:f2f2f2 !important;
+    background-image: url(../images/hamburger-white.png);
+}
+button.navbar-toggler {
         border:none;
-    }
-
+}
 .heroBackground {
-    background-image: url(../images/1839876-MacBook-Pro-on-table\ 1.png);
+    background-image: url(/images/1839876-MacBook-Pro-on-table\ 1.png);
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 700px;
     display:flex;
     justify-content: center;
 }
-
 .heroContent h1 {
     color: rgb(99, 87, 99);
     text-align:center;
     font-size: 22;
     }
 
-/* .heroContent img {
+.heroPic {
     width: 100%;
-} */
+}
 
 .dropdown-menu-text a {
     color: rgb(99, 87, 99) !important;
 }
 
 .dropdown-menu-text {
-    margin-left: -100px;
-}
-
-.navbar-brand {
-    font-size: 36px;
+    margin-left: -70px;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 400;
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 .row {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    margin: 50px;
+    font-size: 22px;
+    margin: 100px 50px;
 }
 
 .contentSection {
     padding-top:10px;
     padding-bottom:10px;
+}
+button {
+    border-radius: 40px;
+    margin:25px;
+    padding:10px 20px;
+    font-size: small;
+    font-weight: 800;
+    color:rgb(230, 224, 230);
+    background:none;
+    border: 2px solid rgb(115, 110, 110);
 }
 
 .heading {
@@ -89,7 +103,20 @@ h1 {
     margin: bottom 40px;
 }
  
+footer {
+    height: 25px;
+    background-color: #373738;
+    padding:25px;
+}  
 
+footer ul {
+
+    vertical-align: top;
+}
+
+footer li {
+    padding:25px;
+}
 /* SECTION SEPARATORS */
 
 .sectionHeading {
@@ -103,3 +130,5 @@ h1 {
 .timelineImage {
     width:100%;
 }
+
+
