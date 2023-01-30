@@ -110,20 +110,12 @@ button {
     margin: bottom 40px;
 }
  
-footer {
-    height: 25px;
-    background-color: #373738;
-    padding:25px;
-}  
-
-footer ul {
-
-    vertical-align: top;
+.nav-link img {
+    width: 50px;
 }
 
-footer li {
-    padding:25px;
-}
+
+
 /* SECTION SEPARATORS */
 
 .sectionHeading {
