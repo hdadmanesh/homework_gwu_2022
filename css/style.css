@@ -11,7 +11,6 @@ body {
     background-position:center;
     color:aliceblue;
 }
-
 body {
     font-family: 'Smooch Sans', sans-serif;
     font-size: 28px;
@@ -19,7 +18,7 @@ body {
 }
 .customNav {
     background-color: rgb(99, 87, 99);
-    padding:5px 25px;
+    padding:15px 25px;
 }
 .customNav a {
     color:white !important;
@@ -33,7 +32,7 @@ body {
 
 }
 .navbar-brand {
-    font-size: 30px;
+    font-size: 32px;
 }
 .navbar-light .navbar-toggler-icon {
     color:f2f2f2 !important;
@@ -68,10 +67,12 @@ button.navbar-toggler {
 
 .dropdown-menu-text a {
     color: rgb(99, 87, 99) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: smaller;
 }
 
 .dropdown-menu-text {
-    margin-left: -70px;
+    margin-left: -60px;
 }
 
 h1 {
@@ -102,10 +103,12 @@ button {
     font-size: small;
     font-weight: 800;
     color:rgb(230, 224, 230);
-    background:none;
+    background: rgb(99, 87, 99, 0.7);
     border: 2px solid rgb(115, 110, 110);
 }
-
+a {
+    color: #f2f2f2;
+}
 .heading {
     color:red;
     margin: bottom 40px;
@@ -131,4 +134,30 @@ button {
     width:100%;
 }
 
-
+.skillsContainer {
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display:grid;
+    height:100vh;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 
+    "skillsCard spaceKit"
+    "skillsCard spaceKit"
+    "skillsCard spaceKit"
+    "skillsCard spaceKit"
+    "skillsCard spaceKit"
+}
+.spaceKitText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding:20px;
+    justify-content: left;
+    margin-right: 0px;
+}
+.skillsCard {
+    justify-content: center;
+    width:700px;
+    padding:25px 100px 25px 100px;
+}
